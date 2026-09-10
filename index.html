@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhankar Rav | Terminal Override</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="cursor-trail" id="trail-1"></div>
+    <div class="cursor-trail" id="trail-2"></div>
+    <div class="cursor-trail" id="trail-3"></div>
+
+    <div class="visualizer-container">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <div class="loader">
+        <div class="scanlines"></div>
+        <h1 class="glitch-text" data-text="BOOTING SECURE SYSTEM...">BOOTING SECURE SYSTEM...</h1>
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <div id="main-interface">
+        <section class="hero" id="hero">
+            <div class="scanlines"></div>
+            <div class="hero-content">
+                <h2 class="pre-title hacker-text" data-value="SYS.ADMIN // B.TECH ECE">SYS.ADMIN // B.TECH ECE</h2>
+                <h1 class="massive-title">SHUBHANKAR</h1>
+                <h1 class="massive-title outline">RAV</h1>
+                <p class="subtitle">Semiconductor Architecture & Embedded Systems</p>
+                <div class="system-status">
+                    <span class="pulse-dot"></span> SYSTEM ONLINE
+                </div>
+            </div>
+            <div class="scroll-down">
+                <p></p>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <div class="marquee-wrapper">
+            <div class="marquee-content">
+                <span>WARNING: GRAVITY FIELD AHEAD</span><span class="separator">///</span>
+                <span>PHYSICS ENABLED</span><span class="separator">///</span>
+                <span>FALLING OBJECTS</span><span class="separator">///</span>
+                <span>WARNING: GRAVITY FIELD AHEAD</span><span class="separator">///</span>
+                <span>PHYSICS ENABLED</span><span class="separator">///</span>
+                <span>FALLING OBJECTS</span>
+            </div>
+        </div>
+
+        <section class="physics-section" id="physics-section">
+            <div class="physics-bg-text">
+                <h2>ECE</h2>
+                <p></p>
+            </div>
+            <div id="physics-container">
+                <div class="matter-box core" data-weight="heavy">QUANTUM ARCHITECTURE</div>
+                <div class="matter-box tech" data-weight="medium">NEURAL NETWORKS</div>
+                <div class="matter-box edu" data-weight="light">WEBGL & THREE.JS</div>
+                <div class="matter-box stat" data-weight="light">EMBEDDED SYSTEMS</div>
+                <div class="matter-box tech" data-weight="heavy">ESP32 AUTOMATION</div>
+                <div class="matter-box future" data-weight="medium">CYBER SECURITY</div>
+                <div class="matter-box creative" data-weight="light">ALGORITHMIC LOGIC</div>
+            </div>
+        </section>
+
+        <footer class="terminal-footer">
+            <div class="terminal-header">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="title">terminal_shubhankar.exe</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="prompt">C:\Users\System></span> ping network</p>
+                <p class="response">Connection established. Latency 2ms.</p>
+                <p><span class="prompt">C:\Users\System></span> access main_directory</p>
+                <div class="contact-links">
+                    <a href="#" class="hacker-text" data-value="> GITHUB">> GITHUB</a>
+                    <a href="#" class="hacker-text" data-value="> LINKEDIN">> LINKEDIN</a>
+                </div>
+                <p class="response" style="margin-top: 15px;">Type "portfolio" to go deeper.</p>
+                <div class="input-line">
+                    <span class="prompt">C:\Users\Guest></span>
+                    <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" autofocus>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="portfolio-override" class="portfolio-override-hidden">
+        
+        <canvas id="particle-canvas"></canvas>
+        <button id="close-override" class="close-btn"><i class="fas fa-times"></i></button>
+
+        <nav class="port-nav">
+            <div class="port-logo">S.R</div>
+            <div class="port-nav-links">
+                <a href="#port-home">Home</a>
+                <a href="#port-about">About</a>
+                <a href="#port-skills">Skills</a>
+                <a href="#port-projects">Projects</a>
+                <a href="#port-contact">Contact</a>
+            </div>
+        </nav>
+
+        <section id="port-home">
+            <div class="port-hero-container port-fade-in-section">
+                <div class="port-hero-text">
+                    <h1>Hello, I'm <br> Shubhankar Rav</h1>
+                    <div>
+                        <span class="port-typewriter" id="typewriter-text"></span><span class="port-cursor"></span>
+                    </div>
+                    <p style="margin: 1.5rem 0; font-size: 1.2rem; line-height: 1.6;">
+                        ECE undergraduate specializing in Semiconductor & Chip Design, with a passion for hardware, embedded systems, and building things that actually work.
+                    </p>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#port-contact" class="port-btn-glass">Contact Me</a>
+                        <a href="#port-projects" class="port-btn-glass">View Work</a>
+                    </div>
+                </div>
+                <div class="port-hero-image-wrapper">
+                    <img src="Profile.jpg" alt="Shubhankar" class="port-profile-img" onerror="this.src='https://via.placeholder.com/300'">
+                </div>
+            </div>
+        </section>
+
+        <section id="port-about">
+            <h2 class="port-section-title port-fade-in-section">My Journey</h2>
+            <div class="port-timeline">
+                <div class="port-timeline-item left">
+                    <div class="port-timeline-content port-glass-panel">
+                        <h3>The Foundation</h3>
+                        <p>Built a strong base in science and mathematics, fueling my passion for electronics.</p>
+                    </div>
+                </div>
+                <div class="port-timeline-item right">
+                    <div class="port-timeline-content port-glass-panel">
+                        <h3>Current Chapter</h3>
+                        <p>B.Tech in Electronics and Communication Engineering at <strong>JECRC University</strong>. Diving deep into Semiconductors and Microcontrollers.</p>
+                    </div>
+                </div>
+                <div class="port-timeline-item left">
+                    <div class="port-timeline-content port-glass-panel">
+                        <h3>Future Vision</h3>
+                        <p>Preparing to pursue higher education <strong>Not want to say</strong>, aiming to contribute globally to chip design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="port-skills">
+            <h2 class="port-section-title port-fade-in-section">Core Competencies</h2>
+            <div class="port-grid-container port-fade-in-section">
+                <div class="port-glass-panel port-skill-card">
+                    <i class="fas fa-microchip port-skill-icon"></i>
+                    <h3>Hardware & IoT</h3>
+                    <p>ESP32 development, sensors, I2C displays, and embedded C/C++ programming.</p>
+                </div>
+                <div class="port-glass-panel port-skill-card">
+                    <i class="fas fa-code-branch port-skill-icon"></i>
+                    <h3>Software & Tools</h3>
+                    <p>GitHub repository management, version control, and scripting.</p>
+                </div>
+                <div class="port-glass-panel port-skill-card">
+                    <i class="fas fa-camera-retro port-skill-icon"></i>
+                    <h3>Creative Arts</h3>
+                    <p>Advanced photo editing (landscapes/portraits).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="port-projects">
+            <h2 class="port-section-title port-fade-in-section">Featured Work & Certificates</h2>
+            <div class="port-grid-container port-fade-in-section">
+                <div class="port-glass-panel">
+                    <h3>Morse Code Decoder Station</h3>
+                    <p>A standalone hardware gadget built using an ESP32, active buzzer, and an I2C OLED display to decode and display morse inputs in real-time.</p>
+                    <div>
+                        <span class="port-project-tag">ESP32</span>
+                        <span class="port-project-tag">C++</span>
+                        <span class="port-project-tag">Hardware</span>
+                    </div>
+                </div>
+                <div class="port-glass-panel">
+                    <h3>Photography & Editing Portfolio</h3>
+                    <p>Collection of enhanced portraits and highly detailed landscape edits optimized for high-quality social media viewing.</p>
+                    <div>
+                        <span class="port-project-tag">Lightroom</span>
+                        <span class="port-project-tag">Photoshop</span>
+                    </div>
+                </div>
+                <div class="port-glass-panel" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <h3>Certifications</h3>
+                    <p>Download my verified course certificates below.</p>
+                    <a href="certificate -1.pdf" class="port-btn-glass" style="margin-top: 1rem; width: 100%;" download>Certificate 1 <i class="fas fa-download"></i></a>
+                    <a href="certificate -2.pdf" class="port-btn-glass" style="margin-top: 1rem; width: 100%;" download>Certificate 2 <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="port-contact">
+            <h2 class="port-section-title port-fade-in-section">Let's Connect</h2>
+            <div class="port-glass-panel port-fade-in-section" style="max-width: 700px; margin: 0 auto; width: 100%;">
+                <form id="contact-form">
+                    <div style="display: flex; gap: 1rem;">
+                        <input type="text" placeholder="First Name" required class="port-input">
+                        <input type="text" placeholder="Last Name" required class="port-input">
+                    </div>
+                    <input type="email" placeholder="Email Address" required class="port-input">
+                    <textarea rows="5" placeholder="How can I help you?" required class="port-textarea"></textarea>
+                    <button type="submit" class="port-btn-glass" style="width: 100%; border: none;">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
